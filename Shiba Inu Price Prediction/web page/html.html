@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Previsões</title>
+
+    <script src="index.js"></script>
+
+    <style>
+        body {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            overflow-y: auto;
+        }
+        h1, p {
+            margin: 10px 0;
+        }
+        input[type="date"], button {
+            padding: 10px;
+            margin: 5px;
+            border: none;
+        }
+        #btn {
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+        }
+        #btn:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        #mensagem {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        #header {
+        position: center;
+        top: 0;
+        left: 0;
+        padding: 0px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        }
+        #header img {
+            width: 70px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="header">
+        <img src="shiba.png" alt="Ícone Shiba">
+    </div>
+    <h1>Shiba Inu Price Prediction</h1>
+    <p>Data Inicial:</p>
+    <input type="date" id="start-date">
+    <p>Data Final:</p>
+    <input type="date" id="end-date">
+    <br>
+    <button id="btn", onclick="BtnClick()">Gerar Previsão</button>
+    <br>
+    <div id="mensagem"></div>
+</body>
+</html>
