@@ -30,9 +30,9 @@ Para usar este projeto, siga estas etapas:
 A estrutura do projeto é a seguinte:
 
 - `web page`: Arquivos da página web (HTMl, CSS, JavaScript).
-- `api`: Pasta com a solicitação http de exemplo e o código Flask
+- `api`: Pasta com a solicitação http de exemplo e o código Flask.
 - `SHIB-USD.csv`: Contém os dados históricos da Shiba Inu.
-- `model.pkl`: Modelo Prophet treinado
+- `model.pkl`: Modelo Prophet treinado.
 - `notebook.ipynb`: Jupyter Notebook
 
 ## Layout da página web
