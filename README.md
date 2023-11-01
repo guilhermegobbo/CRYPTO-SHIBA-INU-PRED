@@ -1,7 +1,5 @@
 # Previsão de Preços da Criptomoeda Shiba Inu
 
-O Projeto consiste em um autoregressor (Prophet) prevendo valores futuros da criptomoeda Shiba Inu. No final foi feito uma API em Flask para vermos esses resultados em uma página WEB.
-
 ## Visão Geral
 
 Este projeto tem como objetivo prever os preços futuros da criptomoeda Shiba Inu com base em dados históricos. Ele é composto por três partes principais:
