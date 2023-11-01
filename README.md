@@ -1,6 +1,6 @@
 # Previsão de Preços da Criptomoeda Shiba Inu
 
-Este projeto é uma aplicação de Machine Learning que utiliza o modelo Prophet para prever os preços da criptomoeda Shiba Inu. Além disso, inclui uma API em Flask para fornecer acesso às previsões e uma página web interativa para visualizar os resultados.
+O Projeto consiste em um autoregressor (Prophet) prevendo valores futuros da criptomoeda Shiba Inu. No final foi feito uma API em Flask para vermos esses resultados em uma página WEB.
 
 ## Visão Geral
 
