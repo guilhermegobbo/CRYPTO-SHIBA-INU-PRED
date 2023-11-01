@@ -5,7 +5,7 @@
 Este projeto tem como objetivo prever os preços futuros da criptomoeda Shiba Inu com base em dados históricos. Ele é composto por três partes principais:
 
 - Um modelo de previsão baseado no Prophet.
-- Uma API em Flask que expõe as previsões do modelo.
+- Uma API em Flask que calcula as previsões do modelo.
 - Uma página web interativa para visualizar os resultados das previsões.
 
 ## Uso
