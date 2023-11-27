@@ -13,15 +13,13 @@ Este projeto tem como objetivo prever os preços futuros da criptomoeda Shiba In
 - Python version: 3.11.3
 - Flask version: 2.3.3
 
-Para usar este projeto, siga estas etapas:
-
 1. **Iniciando a API**:
 
-   Execute o arquivo `flask code.py` para iniciar a API Flask. A API estará disponível em `http://localhost:5000`. Você pode acessar os endpoints da API para obter previsões de preços da Shiba Inu.
+   Execute o arquivo `flask code.py` para iniciar a API Flask. A API estará disponível em `http://localhost:5000`.
 
 2. **Executando a Página Web**:
 
-   Abra o arquivo `html.html` em seu navegador para acessar a página web interativa. A página permite que você visualize os resultados das previsões em gráficos intuitivos.
+   Abra o arquivo `html.html` em seu navegador para acessar a página web interativa. A página permite que você visualize os resultados das previsões.
 
 ## Estrutura do Projeto
 
