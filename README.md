@@ -1,35 +1,35 @@
-# Previsão de Preços da Criptomoeda Shiba Inu
+# Shiba Inu Cryptocurrency Price Prediction
 
-## Visão Geral
+## Overview
 
-Este projeto tem como objetivo prever os preços futuros da criptomoeda Shiba Inu com base em dados históricos. Ele é composto por três partes principais:
+This project aims to predict future prices of the Shiba Inu cryptocurrency based on historical data. It consists of three main parts:
 
-- Um modelo de previsão baseado no Prophet.
-- Uma API em Flask que calcula as previsões do modelo.
-- Uma página web interativa para visualizar os resultados das previsões.
+- A prediction model based on Prophet.
+- A Flask API that calculates the model's predictions.
+- An interactive web page to visualize the prediction results.
 
-## Uso
+## Usage
 
 - Python version: 3.11.3
 - Flask version: 2.3.3
 
-1. **Iniciando a API**:
+1. **Starting the API**:
 
-   Execute o arquivo `flask code.py` para iniciar a API Flask. A API estará disponível em `http://localhost:5000`.
+   Run the `flask code.py` file to start the Flask API. The API will be available at `http://localhost:5000`.
 
-2. **Executando a Página Web**:
+2. **Running the Web Page**:
 
-   Abra o arquivo `html.html` em seu navegador para acessar a página web interativa. A página permite que você visualize os resultados das previsões.
+   Open the `html.html` file in your browser to access the interactive web page. The page allows you to visualize the prediction results.
 
-## Estrutura do Projeto
+## Project Structure
 
-A estrutura do projeto é a seguinte:
+The project structure is as follows:
 
-- `web page`: Arquivos da página web (HTMl, CSS, JavaScript).
-- `api`: Pasta com a solicitação http de exemplo e o código Flask.
-- `SHIB-USD.csv`: Contém os dados históricos da Shiba Inu.
-- `model.pkl`: Modelo Prophet treinado.
-- `notebook.ipynb`: Jupyter Notebook
+- `web page`: Files for the web page (HTML, CSS, JavaScript).
+- `api`: Folder containing example HTTP request and Flask code.
+- `SHIB-USD.csv`: Contains historical data of Shiba Inu.
+- `model.pkl`: Trained Prophet model.
+- `notebook.ipynb`: Jupyter Notebook.
 
 ## Layout da página web
 
